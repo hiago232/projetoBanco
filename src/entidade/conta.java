@@ -8,19 +8,20 @@ package entidade;
  *
  * @author Usuário
  */
-public class Conta {
+public class conta {
     public double saldo;
     public int agencia=0;
     public int numero=0;
     
-    public Conta(){}
+    public conta(){}
     
-    public Conta(int numero,int agencia,double saldo)
+    public conta(int numero,int agencia,double saldo)
     {
         this.agencia = agencia;
         this.numero = numero;
         this.saldo = saldo;
     }
+
     
     public  void depositar (double valor)
     {

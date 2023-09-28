@@ -9,19 +9,19 @@ package com.banco;
  * @author Usuário
  */
 
-import entidade.Conta;
+import entidade.conta;
 import javax.swing.*;
 
 
 public class aplicacao {
-    // Declarando as instancias de Conta
+    // Declarando as instancias de conta
        
   public void poupanc(){}
     public static void main (String entrada[])
     {
       
-        Conta cc = new Conta();
-        Conta poupanca = new Conta();
+        conta cc = new conta();
+        conta poupanca = new conta();
         double deposito;
          //Entrada de Dados
       
