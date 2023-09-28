@@ -3,25 +3,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entidade;
-import entidade.conta;
+import entidade.Conta;
 
 /**
  *
  * @author Usuário
  */
-public class titular {
-    public conta conta = new conta();
+public class Titular {
+    public Conta conta = new Conta();
     
     private String nome;
     private double saldo;
     private double taxa = 5.00;
     
     
-public titular (conta conta,String nome){
+public Titular (Conta conta,String nome){
     this.conta= conta;
     this.nome= nome;
 }    
-public titular (conta conta,String nome,double saldoInicial){
+public Titular (Conta conta,String nome,double saldoInicial){
     this.conta = conta;
     this.nome= nome;
     deposito(saldoInicial);

@@ -8,14 +8,14 @@ package entidade;
  *
  * @author Usuário
  */
-public class conta {
+public class Conta {
     public double saldo;
     public int agencia=0;
     public int numero=0;
     
-    public conta(){}
+    public Conta(){}
     
-    public conta(int numero,int agencia,double saldo)
+    public Conta(int numero,int agencia,double saldo)
     {
         this.agencia = agencia;
         this.numero = numero;
